@@ -21,8 +21,6 @@ const Converter = () => {
         value={stateValue.color} 
         onChange={handleChange}/>
       <div className='color-info rgb'><Check value={stateValue.color} refElement={containerRef.current}/></div>
-      {/* <input className='color-info rgb' value={<Check value={stateValue.color} refElement={containerRef.current}/>} readOnly/> */}
-
     </div>
   )
 }
